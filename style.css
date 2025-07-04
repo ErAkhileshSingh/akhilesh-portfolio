@@ -39,11 +39,33 @@ section {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   padding: 20px;
   margin-bottom: 20px;
-  transition: transform 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .projects .card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.projects .card h3 {
+  color: #2e86de;
+  margin-top: 0;
+}
+
+.projects .card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 16px;
+  background-color: #2e86de;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.projects .card a:hover {
+  background-color: #1b4f72;
 }
 
 .skills ul {
