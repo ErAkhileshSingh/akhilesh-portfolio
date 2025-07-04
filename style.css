@@ -24,7 +24,7 @@ h2 {
 
 section {
   padding: 30px 20px;
-  max-width: 900px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -39,6 +39,11 @@ section {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   padding: 20px;
   margin-bottom: 20px;
+  transition: transform 0.3s;
+}
+
+.projects .card:hover {
+  transform: translateY(-5px);
 }
 
 .skills ul {
@@ -66,4 +71,48 @@ footer {
   color: white;
   padding: 20px 10px;
   margin-top: 30px;
+}
+
+/* Resume Button */
+.resume-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  color: #003366;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.resume-btn:hover {
+  background-color: #ffdb4d;
+}
+
+/* Animations */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.2s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 28px;
+  }
+
+  .skills ul {
+    flex-direction: column;
+  }
+
+  .projects .card {
+    margin-bottom: 15px;
+  }
 }
