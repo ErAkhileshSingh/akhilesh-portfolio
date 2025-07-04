@@ -28,7 +28,10 @@ section {
   margin: auto;
 }
 
-.about p, .projects p, .skills ul, .contact p {
+.about p,
+.projects p,
+.skills ul,
+.contact p {
   font-size: 16px;
   line-height: 1.6;
 }
@@ -36,7 +39,7 @@ section {
 .projects .card {
   background-color: white;
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin-bottom: 20px;
   transition: transform 0.3s, box-shadow 0.3s;
