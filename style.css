@@ -17,6 +17,19 @@ header h1 {
   margin-bottom: 0.5rem;
 }
 
+.btn-download {
+  background-color: #697d9c;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.btn-download:hover {
+  background-color: #8cd0e2;
+}
+
+
 .resume-btn {
   display: inline-block;
   background-color: #ffc107;
